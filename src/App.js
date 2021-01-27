@@ -27,7 +27,7 @@ function calculation(e) {
 }
 
   return (
-    <>
+    <div style={{padding: 20}}>
       <h3>Calculating alcohol blood level</h3>
       <form onSubmit={calculation}>
         <div>
@@ -52,7 +52,7 @@ function calculation(e) {
         </div>
         <button>Calculate</button>
       </form>
-    </>
+    </div>
   );
 }
 
